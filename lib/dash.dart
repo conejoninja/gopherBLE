@@ -190,6 +190,7 @@ class DashboardScreen extends StatelessWidget {
                         child: Padding(
                           padding: EdgeInsets.all(5.0),
                           child: TextField(
+                            controller: msg2,
                             decoration: InputDecoration(
                               border: OutlineInputBorder(),
                               hintText: 'Message to display',
@@ -217,6 +218,7 @@ class DashboardScreen extends StatelessWidget {
                         child: Padding(
                           padding: EdgeInsets.all(5.0),
                           child: TextField(
+                            controller: msg3,
                             decoration: InputDecoration(
                               border: OutlineInputBorder(),
                               hintText: 'Message to display',
@@ -244,6 +246,7 @@ class DashboardScreen extends StatelessWidget {
                         child: Padding(
                           padding: EdgeInsets.all(5.0),
                           child: TextField(
+                            controller: msg4,
                             decoration: InputDecoration(
                               border: OutlineInputBorder(),
                               hintText: 'Message to display',
@@ -271,6 +274,7 @@ class DashboardScreen extends StatelessWidget {
                         child: Padding(
                           padding: EdgeInsets.all(5.0),
                           child: TextField(
+                            controller: msg5,
                             decoration: InputDecoration(
                               border: OutlineInputBorder(),
                               hintText: 'Message to display',
